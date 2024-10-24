@@ -1,0 +1,188 @@
+*{
+
+margin: 0px;
+padding: 0px;
+
+}
+.navbar{
+width: 100%;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+/* margin: 0px 5%; */
+}
+.navbar-logo{
+display: flex;
+align-items: center;
+gap: 10px;
+color: rgb(7, 156, 7);
+}
+.navbar-logo img{
+
+    width: 40px;
+}
+.pages{
+display: flex;
+align-items: center;
+gap: 30px;
+
+
+}
+.pages a{
+text-decoration: none;
+color: black;
+&:hover{
+color: rgb(132, 130, 130);
+
+}
+}
+.search-bar{
+display: flex;
+align-items: center;
+position: relative;
+}
+.search-bar input{
+border: none;
+background-color: rgb(245, 242, 242);
+padding: 10px 15px;
+
+border-radius: 10px;
+}
+.search-bar .iconbox{
+position: absolute;
+right: 10px;
+}
+.account-cart{
+display: flex;
+gap: 15px;
+
+}
+.account-cart a{
+
+
+    text-decoration: none;
+    color: black;
+    &:hover{
+    color: rgb(132, 130, 130);
+text-decoration: underline;    
+    }
+}
+.baner{
+width: 90%;
+background-color: rgb(220, 235, 241);
+margin: 0px 5%;
+border-radius: 10px;
+display: flex;
+align-items: center;
+height: fit-content;
+gap: 50px;
+}
+.baner-text{
+width: 40%;
+margin: 5%;
+color: rgb(7, 156, 7);
+font-size: large;
+}
+.baner-text button{
+background-color: rgb(7, 156, 7);
+border: none;
+border-radius: 50px;
+padding: 5px 10px;
+margin-top: 14px !important;
+margin: 5px;
+color: white;
+&:hover{
+background-color: rgb(57, 98, 57);
+
+}
+}
+.baner-img{
+    text-align: center;
+height: fit-content;
+    width: 80%;
+}
+.baner-img img{
+margin-top: 30px;
+    width: 50%;
+}
+.headphones-cards{
+    display: flex;
+    align-items: center;
+justify-content: center;
+    width: 80%;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+margin: 10%;
+gap:30px;
+}
+.headphones-cards .card{
+    width: 20%;
+    /* padding: 10px; */
+    &:hover{
+    box-shadow: 2px 2px 5px rgb(216, 209, 209),-2px -2px 5px rgb(216, 209, 209);
+
+}
+}
+.headphones-cards .card .card-img{
+width: 100%;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aliceblue;
+text-align: center;
+/* padding: 10px; */
+
+}
+.headphones-cards .card .card-img img{
+    width: 50%;
+    
+    }
+.headphones-cards .card .card-details{
+    margin-top: 10px;
+    width: 100%;
+    /* padding: 10px; */
+}
+.headphones-cards .card .card-pricing{
+display: flex;
+/* gap: 5px; */
+justify-content: space-between;
+/* font-size: medium; */
+}
+.headphones-cards .card .card-title{
+/* display: flex;
+flex-direction: column; */
+font-size: x-small;
+/* width: 100%; */
+    padding: 10px;
+}
+.headphones-cards .card .card-title .rating span{
+color:  rgb(7, 156, 7);
+font-size: x-small;
+
+}
+.headphones-cards .card .card-title .rating{
+display: flex;
+
+}
+.body{
+
+    width: 100%;
+}
+.headphones-cards .card .card-title button{
+    background-color: rgb(7, 156, 7);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 14px !important;
+    margin: 5px;
+    color: white;
+    &:hover{
+   background-color: white;
+    color: black;
+    border: 1px solid black;
+    }
+    
+
+}

@@ -1,0 +1,51 @@
+@media(max-width:1000px){
+.pages{
+    display: none;
+}
+.account-cart{
+
+    display: none;
+}
+    .baner {
+        width: 80%;
+        background-color: rgb(220, 235, 241);
+        margin: 0px 5%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: fit-content;}
+        .baner-text {
+            width: 100%;
+            margin: 5%;
+text-align: center;
+            color: rgb(7, 156, 7);
+            font-size: small;
+        }
+        .baner-img {
+            text-align: center;
+            height: fit-content;
+            width: 100%;
+        }
+        .headphones-cards {
+            display: flex;
+            /* align-items: center; */
+            width: 100%;
+            /* justify-content: center; */
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 10%;
+            /* gap: 30px; */
+        }
+        .headphones-cards .card {
+            width: 100%;
+            /* padding: 10px; */
+        }
+        .headphones-cards .card .card-img img{
+
+width: 20%;
+
+        }
+
+}
